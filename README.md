@@ -13,6 +13,13 @@
   - storage retained in S3
 - billed for a minimum of 4 OCUs for the first collection in your account
 
+
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*yXzV6O4EwUnFPl5i.png)
+
+> Amazon OpenSearch Serverless architecture. Source: docs.aws.amazon.com
+
+---
+
 ## demo
 
 creates opensearch serverless collection, network policy, access policy, and iam user
@@ -23,9 +30,13 @@ creates opensearch serverless collection, network policy, access policy, and iam
 sam deploy
 ```
 
+---
+
 ## screenshots
 
 ![sam deploy output](https://www.evernote.com/l/AAFv_zdV95FOn4beVOGkIr1UzNcgxg1RtrQB/image.png)
+
+---
 
 ## resources
 
@@ -33,3 +44,4 @@ sam deploy
 - [CloudFormation | Amazon OpenSearch Serverless](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/AWS_OpenSearchServerless.html)
 - [Build a search application with Amazon OpenSearch Serverless](https://aws.amazon.com/blogs/big-data/build-a-search-application-with-amazon-opensearch-serverless/)
 - [Using AWS CloudFormation to create Amazon OpenSearch Serverless collections](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-cfn.html)
+- [Amazon OpenSearch goes Serverless!](https://medium.com/kreuzwerker-gmbh/amazon-opensearch-goes-serverless-4bc7813d5930)
